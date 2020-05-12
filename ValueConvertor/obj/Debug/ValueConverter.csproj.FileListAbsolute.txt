@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConvertor.Form1.resources
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConvertor.Properties.Resources.resources
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConverter.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConverter.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConvertor.exe
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConvertor.pdb
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\bin\Debug\ValueConvertor.exe.config
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\bin\Debug\ValueConvertor.exe
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\bin\Debug\ValueConvertor.pdb
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConverter.csproj.CopyComplete
