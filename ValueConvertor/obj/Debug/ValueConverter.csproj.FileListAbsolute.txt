@@ -10,3 +10,4 @@ C:\Users\User\source\repos\ValueConvertor\ValueConvertor\bin\Debug\ValueConverto
 C:\Users\User\source\repos\ValueConvertor\ValueConvertor\bin\Debug\Newtonsoft.Json.dll
 C:\Users\User\source\repos\ValueConvertor\ValueConvertor\bin\Debug\Newtonsoft.Json.xml
 C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConverter.csproj.CopyComplete
+C:\Users\User\source\repos\ValueConvertor\ValueConvertor\obj\Debug\ValueConverter.csprojAssemblyReference.cache
