@@ -45,10 +45,10 @@ namespace ValueConvertor
                 Name = name,
                 Size = new Size(100, 50),
                 DropDownStyle = ComboBoxStyle.DropDownList,
-                DropDownHeight = 100
+                DropDownHeight = 100,
 
-                //Font = 
-                
+                Font = new Font(ComboBox.DefaultFont.ToString(), 10)
+
             };
             
             return valBox;
@@ -61,8 +61,8 @@ namespace ValueConvertor
                 Location = new Point(x, y),
                 Name = name,
                 Size = new Size(100, 40),
-                Text = text
-                //Font = 
+                Text = text,
+                Font = new Font("Trebuchet MS", 12)
             };
 
             return btn;
@@ -76,8 +76,8 @@ namespace ValueConvertor
                 Name = name,
                 //Size = new Size(100, 40),
                 AutoSize = true,
-                Text = text
-                //Font = 
+                Text = text,
+                Font = new Font("Trebuchet MS", 12)
             };
 
             return lbl;
@@ -89,8 +89,8 @@ namespace ValueConvertor
             {
                 Location = new Point(xl, yl),
                 Name = name,
-                Size = new Size(xs, 40)
-                //Font = 
+                Size = new Size(xs, 40),
+                Font = new Font("Trebuchet MS", 12)
             };
 
             return textBox;

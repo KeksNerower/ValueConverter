@@ -18,11 +18,11 @@ namespace ValueConvertor
         //Helper helper = new Helper();
         ComboBox comboBox1 = Helper.InitCombobox("comboBox1", 100, 50);
         ComboBox comboBox2 = Helper.InitCombobox("comboBox2", 350, 50);
-        Button button1 = Helper.InitButton("button1", 225, 100, "Convert");
+        Button button1 = Helper.InitButton("button1", 225, 105, "Convert");
         TextBox textBox1 = Helper.InitTextBox("textBox1", 100, 225, 100);
         TextBox textBox2 = Helper.InitTextBox("textBox2", 250, 225, 200);
-        Label label1 = Helper.InitLabel("label1", 100, 210, "Date");
-        Label label2 = Helper.InitLabel("label2", 250, 210, "Value convertation");
+        Label label1 = Helper.InitLabel("label1", 100, 200, "Date");
+        Label label2 = Helper.InitLabel("label2", 250, 200, "Value convertation");
         
 
         public Form1()
@@ -30,6 +30,7 @@ namespace ValueConvertor
             Basis = "EUR";
             ConvTo = "EUR";
             
+            //Icon
             InitializeComponent();
 
             //var cb1 = helper.InitCombobox("comboBox1_1", 100, 100);
