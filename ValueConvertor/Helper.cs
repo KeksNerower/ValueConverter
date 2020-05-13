@@ -7,14 +7,36 @@ using Newtonsoft.Json;
 using System.Net;
 using System.Windows.Forms;
 using System.Drawing;
+using System.IO;
+using System.Runtime.CompilerServices;
 
 namespace ValueConvertor
 {
     class Helper
     {
+        private static string[] FileValNames(string path)
+        {
+            string[] names = new string[32];
+
+            using (StreamReader sr = new StreamReader(path))
+            {
+                string line;
+                int i = 0;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    names[i] = line;
+                    i++;
+                }
+            }
+
+            return names;
+        }
+
         public static ComboBox InitCombobox(string name, int x, int y)
         {
-            var valNames = new[] { "EUR", "USD", "RUB", "CAD", "HKD", "ISK", "PHP", "DKK", "HUF", "CZK", "AUD" };
+            //var valNames = new[] { "EUR", "USD", "RUB", "CAD", "HKD", "ISK", "PHP", "DKK", "HUF", "CZK", "AUD" };
+            
+            var valNames = Helper.FileValNames("Names.txt");
 
             var valBox = new ComboBox
             {

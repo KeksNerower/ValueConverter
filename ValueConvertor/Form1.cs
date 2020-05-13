@@ -28,7 +28,7 @@ namespace ValueConvertor
         public Form1()
         {
             Basis = "EUR";
-            ConvTo = "RUB";
+            ConvTo = "EUR";
             
             InitializeComponent();
 
@@ -62,10 +62,17 @@ namespace ValueConvertor
 
         private void button_Convert_Click(object sender, EventArgs e)
         {
-            Currency currencyData = Currency.APIValue(Basis, ConvTo);
+            try
+            {
+                Currency currencyData = Currency.APIValue(Basis, ConvTo);
 
-            textBox1.Text = Convert.ToString(currencyData.Date);
-            textBox2.Text = Basis + " = " + Convert.ToString(currencyData.Rates[ConvTo]) + "  " + ConvTo;
+                textBox1.Text = Convert.ToString(currencyData.Date);
+                textBox2.Text = Basis + " = " + Convert.ToString(currencyData.Rates[ConvTo]) + "  " + ConvTo;
+            }
+            catch
+            {
+                MessageBox.Show("Samething is wrong\nTry again");
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
